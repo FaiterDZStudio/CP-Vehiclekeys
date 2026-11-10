@@ -1,0 +1,38 @@
+[
+  {
+    "version": "1.2.1",
+    "date": "2026-11-10",
+    "release-notes": [
+      "- Added a machine-readable version history for update checks.",
+      "- Documented the verified release history from version 1.0.0 through 1.2.0."
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "date": "2026-11-10",
+    "release-notes": [
+      "- Replaced the remaining ESX compatibility facade with direct cp_core APIs.",
+      "- Hardened server-side key purchases and license plate changes with validation and rollback handling.",
+      "- Improved inventory metadata error handling and reduced continuous client-side polling.",
+      "- Preserved vehicle detection through validated native client callbacks."
+    ]
+  },
+  {
+    "version": "1.1.0",
+    "date": "2026-11-10",
+    "release-notes": [
+      "- Added cp_core 1.6.0 as a required dependency and centralized shared integrations.",
+      "- Removed the kimi_callbacks dependency and migrated vehicle queries to cp_core callbacks.",
+      "- Simplified customer configuration by removing framework and inventory provider selection."
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "date": "2026-08-09",
+    "release-notes": [
+      "- Initial Code&Poly Vehiclekeys release.",
+      "- Added vehicle locking, engine control, hotwiring and lockpicking.",
+      "- Added key-copy NPCs, dispatch integration and optional license plate replacement."
+    ]
+  }
+]
