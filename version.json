@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.2.2",
+    "date": "2026-11-10",
+    "release-notes": [
+      "- Added a machine-readable version history for update checks.",
+    ]
+  },
+  {
     "version": "1.2.1",
     "date": "2026-11-10",
     "release-notes": [
