@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.3.0",
+    "date": "2026-11-10",
+    "release-notes": [
+      "- Added automatic SQL-backed vehicle key storage for inventories without metadata support.",
+      "- Added ownership-validated ESX and QBCore garage and admin vehicle key integrations.",
+      "- Added a localized, non-blocking server-side update checker with missed-release patch notes.",
+      "- Improved Jaksam and Quasar metadata handling with reliable slot-based key updates.",
+      "- Improved ambient NPC vehicle locking while reducing repeated client-side processing.",
+      "- Simplified customer configuration and added complete item and vehicle-spawn documentation."
+    ]
+  },
+  {
     "version": "1.2.1",
     "date": "2026-11-10",
     "release-notes": [
@@ -36,3 +48,4 @@
     ]
   }
 ]
+
